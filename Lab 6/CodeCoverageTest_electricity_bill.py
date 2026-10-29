@@ -16,10 +16,10 @@ def test_energy_charge_boundaries_and_connections():
     assert energy_charge(99, "domestic") == 347
     assert energy_charge(100, "domestic") == 350
     assert energy_charge(101, "domestic") == 355
-    assert energy_charge(299, "domestic") == 1295
-    assert energy_charge(300, "domestic") == 1300
-    assert energy_charge(301, "domestic") == 1308
-    assert energy_charge(100, "commercial") == 850
+    assert energy_charge(299, "domestic") == 1345
+    assert energy_charge(300, "domestic") == 1350
+    assert energy_charge(301, "domestic") == 1358
+    assert energy_charge(100, "commercial") == 750
     assert energy_charge(301, "commercial") == 2766
 
 
